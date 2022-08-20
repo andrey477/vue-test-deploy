@@ -25,3 +25,17 @@ export default class App extends Vue {
   }
 }
 </script>
+
+<style lang="scss">
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.p20 {
+  padding: 20px;
+}
+</style>
