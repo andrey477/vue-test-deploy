@@ -3,15 +3,18 @@ import VueRouter, { RouteConfig } from 'vue-router';
 import Home from '../views/Home/Home.vue';
 import AuthPage from '@/views/AuthPage/AuthPage.vue';
 import CategoriesPage from '@/views/CategoriesPage/CategoriesPage.vue';
+import RecordPage from "@/views/RecordPage/RecordPage.vue";
+import HistoryPage from "@/views/HistoryPage/HistoryPage.vue";
+import PlanningPage from "@/views/PlanningPage/PlanningPage.vue";
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
+    name: 'RecordPage',
     meta: { layout: 'MainLayout' },
-    component: Home,
+    component: RecordPage,
   },
   {
     path: '/login',
@@ -21,9 +24,27 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: '/categories',
-    name: 'categories',
+    name: 'CategoriesPage',
     meta: { layout: 'MainLayout' },
     component: CategoriesPage,
+  },
+  {
+    path: '/history',
+    name: 'HistoryPage',
+    meta: { layout: 'MainLayout' },
+    component: HistoryPage,
+  },
+  {
+    path: '/planning',
+    name: 'PlanningPage',
+    meta: { layout: 'MainLayout' },
+    component: PlanningPage,
+  },
+  {
+    path: '/record',
+    name: 'RecordPage',
+    meta: { layout: 'MainLayout' },
+    component: RecordPage,
   },
 ];
 

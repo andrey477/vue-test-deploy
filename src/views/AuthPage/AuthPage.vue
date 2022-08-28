@@ -14,7 +14,12 @@
       ></v-text-field>
     </v-form>
     <div class="mt20">
-      <v-btn :disabled="!valid" color="success" class="mr-4" @click="handleClick">
+      <v-btn
+        :disabled="!valid"
+        color="success"
+        class="mr-4"
+        @click="handleClick"
+      >
         Войти
       </v-btn>
     </div>

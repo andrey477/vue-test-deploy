@@ -20,7 +20,6 @@ import AuthLayout from '@/layouts/AuthLayout.vue';
 })
 export default class App extends Vue {
   get layout(): string {
-    console.log(this.$route?.meta);
     return String(this.$route?.meta?.layout);
   }
 }
