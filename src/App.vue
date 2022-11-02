@@ -37,4 +37,8 @@ export default class App extends Vue {
 .p20 {
   padding: 20px;
 }
+
+.router-link {
+  text-decoration: none;
+}
 </style>

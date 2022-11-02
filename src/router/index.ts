@@ -1,11 +1,10 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import Home from '../views/Home/Home.vue';
 import AuthPage from '@/views/AuthPage/AuthPage.vue';
 import CategoriesPage from '@/views/CategoriesPage/CategoriesPage.vue';
-import RecordPage from "@/views/RecordPage/RecordPage.vue";
-import HistoryPage from "@/views/HistoryPage/HistoryPage.vue";
-import PlanningPage from "@/views/PlanningPage/PlanningPage.vue";
+import RecordPage from '@/views/RecordPage/RecordPage.vue';
+import HistoryPage from '@/views/HistoryPage/HistoryPage.vue';
+import PlanningPage from '@/views/PlanningPage/PlanningPage.vue';
 
 Vue.use(VueRouter);
 

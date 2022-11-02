@@ -7,3 +7,9 @@ export interface Link {
   url: string;
   exact?: boolean;
 }
+
+export interface DropDownItem {
+  title: string;
+  slot?: string;
+  link: string;
+}
