@@ -1,6 +1,10 @@
 {
   "name": "vue-crm-system",
   "version": "0.1.0",
+	"engines": {
+		"node": "18.x",
+		"npm": "8.x"
+	},
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
