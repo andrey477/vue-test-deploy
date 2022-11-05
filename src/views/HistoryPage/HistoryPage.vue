@@ -3,6 +3,7 @@
     <p>{{ 'привет' | capitalize }}</p>
     <v-text-field label="Autofocus" autofocus />
     <v-btn color="primary">Кнопка</v-btn>
+    <v-btn color="secondary">secondary</v-btn>
   </div>
 </template>
 
